@@ -8,6 +8,10 @@ sender with a motion-vector spiral, adaptive cadence control, and an edge ticket
 seeds world generation ahead of the player. Zero configuration required. Drop it in and
 it works.
 
+> NOTE: For servers and low-end rigs, use PERFORMANCE in the mod configurations. 
+> Go to the main menu → click mods → look for ChunkOptimizer → toggle the config.
+> For high-end rigs, use SMOOTH for quick adaptive gameplay (recommended: Ryzen 5700/RTX 3070.)
+
 ---
 
 ## What is ChunkOptimizer?
@@ -271,23 +275,4 @@ Safe to include even without C2ME — it has no effect if C2ME is absent.
 
 ## License
 
-MIT. Do what you want. If you copy the whole thing verbatim and call it your
-own mod, check TOS.
-
-# NeoForge
-
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
-
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All mod makers should be aware
-of this license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
-
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+MIT. Do what you want. Direct copies without modifications violate Modrinth content terms.
