@@ -204,7 +204,7 @@ public class PlayerChunkSenderMixin {
                 ChunkOptimizerConfig.startIntervalMs,
                 ChunkOptimizerConfig.endIntervalMs);
 
-        // Speed mode: lock floor at 150ms when sprinting/elytra
+        // Speed mode: lock floor
         if (speed > SPRINT_SPEED_THRESHOLD * SPRINT_SPEED_THRESHOLD) {
             currentIntervalMs = Math.min(warmInterval, ChunkOptimizerConfig.sprintIntervalMs);
         } else {

@@ -1,6 +1,5 @@
 .gradle
 build/
-!gradle/wrapper/gradle-wrapper.jar
 !**/src/**/build/
 
 .idea/
@@ -39,6 +38,3 @@ src/generated/
 
 .settings/
 Thumbs.db
-
-# Mod output JARs — Modrinth gets the built artifact, not source repo
-*.jar
