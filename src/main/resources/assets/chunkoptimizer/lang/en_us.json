@@ -1,0 +1,7 @@
+{
+  "chunkoptimizer.configuration.title": "ChunkOptimizer",
+  "chunkoptimizer.configuration.section.chunkoptimizer.common.toml": "ChunkOptimizer",
+  "chunkoptimizer.configuration.section.chunkoptimizer.common.toml.title": "ChunkOptimizer",
+  "chunkoptimizer.configuration.preset": "Preset",
+  "chunkoptimizer.configuration.preset.tooltip": "SMOOTH: high-end hardware, tightest cadence, most aggressive edge ticketing. PERFORMANCE: lower-end hardware or large servers, wider intervals, conservative ticketing."
+}
